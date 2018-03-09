@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resultados búsqueda "Conciertos"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/popup.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid header">
+            <div class="pull-left">
+                <img src="http://madriddespierta.com/wp-content/uploads/2016/11/madrid-despierta-agenda-ocio-logo-transparente.png" style="width: 15%">
+            </div>
+            <div class="pull-right">
+                <a data-popup-open="popup-1" href="#">
+                    <button class="btn btn-default help"><i class="fa fa-question-circle" aria-hidden="true" data-popup-open="popup-1"></i> | AYUDA</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid background">
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <span class="big-text">
+                    Estás buscando algo relacionado con Conciertos... <a href="index.html"><button class="btn btn-default help"><i class="fa fa-home" aria-hidden="true"></i> | Volver a la página principal</button></a>
+                </span>
+                <br><br>
+                <form action="javascript:redirect();">
+                    <input type="text" class="form-control search-index" id="text" placeholder="Buscar nuevo término..." style="display:inline;">
+                    <br><br>
+                    <input class="btn btn-default pull-right submit-search" type="submit" value="Buscar">
+                </form>
+            </div>
+            <div class="col-sm-12">
+                <br><br>
+                <div class="col-sm-3 search-criterials">
+                    <div class="header-search-criterials">
+                        <p>Filtros de búsqueda</p>
+                    </div>
+                    <div class="list-group">
+                        <p class="list-group-item"><b>Precio</b></p>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize1" value="option1"> Gratis
+                          </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize2" value="option2"> + 10€
+                          </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize3" value="option3"> - 10€
+                        </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize4" value="option4" checked> Todo
+                        </label>
+                    </div>
+                    <div class="list-group">
+                        <p class="list-group-item"><b>Cercanía</b></p>
+                        <label class="list-group-item">
+                            <input type="radio" name="proxOptions" id="optionsProx1" value="option1"> + 10 kilómetros
+                        </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="proxOptions" id="optionsProx2" value="option2"> - 10 kilómetros
+                        </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="proxOptions" id="optionsProx3" value="option3" checked> Todo
+                        </label>
+                    </div>
+                    <button class="btn btn-default new-search">Actualizar la búsqueda</button>
+                </div>
+                <div class="col-sm-9 search-results">
+                    <div class="header-search-criterials">
+                        <p>Resultados de la búsqueda</p>
+                    </div>
+                    <br>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-top: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <img src="assets/img/5.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>Parkway Drive - La Riviera Madrid</h2>
+                                <p>Parkway Drive es una banda australiana de metalcore procedente de Byron Bay, Nueva Gales del Sur, Australia. Fue formada en el año 2002. Hasta el año 2015, Parkway Drive ha lanzado cinco albums: Killing with a Smile, Horizons, Deep Blue, Atlas y IRE; además de un EP, dos DVDs y un libro; Ten Years of Parkway Drive. Varios de sus álbumes alcanzaron el puesto más alto en el top 10 de la Australian ARIA Graphic.</p>
+                                <br>
+                                <p>Precio: 25€</p>
+                                <p>Horario: 27 de Abril 19:00</p>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-bottom: 15px; margin-bottom: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <a href="https://www.google.es/maps?q=la+riviera+madrid&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjQlp3D6sLTAhUMJsAKHW8BCTAQ_AUICCgB" target="_blank">
+                                    <img src="assets/img/riviera.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>Localización de la actividad</h2>
+                                <p>Dirección: Paseo Bajo de la Virgen del Puerto, s/n</p>
+                                <p>Categoria: Conciertos</p>
+                                <p>Teléfono de contacto: 913 65 24 15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-top: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <img src="assets/img/6.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>Paul Carrack - Teatro Nuevo Apolo</h2>
+                                <p>Paul Melvyn Carrack (Sheffield, Inglaterra, 22 de abril de 1951) es un cantante, músico y compositor británico. Apodado por el canal de televisión BBC como "El hombre con la voz de oro",1 Carrack empezó su carrera profesional como compositor y líder del grupo Ace y ganó popularidad como artista en solitario y por su pertenencia a grupos como Roxy Music, Squeeze y The Bleeding Heart Band, grupo de respaldo de Roger Waters.</p>
+                                <br>
+                                <p>Precio: 30€</p>
+                                <p>Horario: 5 de Mayo 21:30</p>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-bottom: 15px; margin-bottom: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <a href="https://www.google.es/maps/place/Teatro+Nuevo+Apolo/@40.4123907,-3.7055213,17z/data=!3m1!4b1!4m5!3m4!1s0xd4227d5516b19f9:0x8f6bf13e5bd2aada!8m2!3d40.4123907!4d-3.7033326" target="_blank">
+                                    <img src="assets/img/apolo.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>Localización de la actividad</h2>
+                                <p>Dirección: Plaza Tirso de Molina, 1</p>
+                                <p>Categoria: Concierto</p>
+                                <p>Teléfono de contacto: 913 69 06 37</p>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="popup" data-popup="popup-1">
+        <div class="popup-inner">
+            <h2>Ayuda - ¿Cómo utilizar la aplicación?</h2>
+            <p>Simplemente, introduzca un término en el buscador y clique sobre "Buscar". A continuación, observará los resultados de su búsqueda.</p>
+            <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+        </div>
+    </div>
+</body>
+
+</html>

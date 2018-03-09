@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resultados búsqueda "teatros"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/popup.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid header">
+            <div class="pull-left">
+                <img src="http://madriddespierta.com/wp-content/uploads/2016/11/madrid-despierta-agenda-ocio-logo-transparente.png" style="width: 15%">
+            </div>
+            <div class="pull-right">
+                <a data-popup-open="popup-1" href="#">
+                    <button class="btn btn-default help"><i class="fa fa-question-circle" aria-hidden="true" data-popup-open="popup-1"></i> | AYUDA</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid background">
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <span class="big-text">
+                    Estás buscando algo relacionado con Teatros... <a href="index.html"><button class="btn btn-default help"><i class="fa fa-home" aria-hidden="true"></i> | Volver a la página principal</button></a>
+                </span>
+                <br><br>
+                <form action="javascript:redirect();">
+                    <input type="text" class="form-control search-index" id="text" placeholder="Buscar nuevo término..." style="display:inline;">
+                    <br><br>
+                    <input class="btn btn-default pull-right submit-search" type="submit" value="Buscar">
+                </form>
+            </div>
+            <div class="col-sm-12">
+                <br><br>
+                <div class="col-sm-3 search-criterials">
+                    <div class="header-search-criterials">
+                        <p>Filtros de búsqueda</p>
+                    </div>
+                    <div class="list-group">
+                        <p class="list-group-item"><b>Precio</b></p>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize1" value="option1"> Gratis
+                          </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize2" value="option2"> + 10€
+                          </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize3" value="option3"> - 10€
+                        </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="prizeOptions" id="optionsPrize4" value="option4" checked> Todo
+                        </label>
+                    </div>
+                    <div class="list-group">
+                        <p class="list-group-item"><b>Cercanía</b></p>
+                        <label class="list-group-item">
+                            <input type="radio" name="proxOptions" id="optionsProx1" value="option1"> + 10 kilómetros
+                        </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="proxOptions" id="optionsProx2" value="option2"> - 10 kilómetros
+                        </label>
+                        <label class="list-group-item">
+                            <input type="radio" name="proxOptions" id="optionsProx3" value="option3" checked> Todo
+                        </label>
+                    </div>
+                    <button class="btn btn-default new-search pull-center">Actualizar la búsqueda</button>
+                </div>
+                <div class="col-sm-9 search-results">
+                    <div class="header-search-criterials">
+                        <p>Resultados de la búsqueda</p>
+                    </div>
+                    <br>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-top: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <img src="assets/img/7.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>El rey León - Teatro Lope de Vega Madrid</h2>
+                                <p>EL REY LEÓN es un musical excepcional, fruto de la unión de reconocidos talentos musicales y teatrales a nivel mundial y de la fusión de las más sofisticadas disciplinas de las artes escénicas africanas, occidentales y asiáticas. Visto por 85 millones de espectadores y ganador de 70 premios, este increíble musical con más de 19 años sobre los escenarios de Broadway cuenta con las canciones de Elton John y Tim Rice, y la música de Lebo. M y Hans Zimmer. Un espectáculo único cargado de valores familiares, que demuestra la vinculación de cada uno de nosotros con nuestras raíces. EL REY LEÓN hace que el espectador recapacite sobre la importancia de cada una de nuestras acciones y el efecto que causan en nuestro entorno, así como la importancia de sentir que pertenecemos a un grupo, y como todo ello conforma nuestro destino. Además un canto al respeto y al amor por la naturaleza.</p>
+                                <p>Precio: 25€</p>
+                                <p>Horario: 19:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-bottom: 15px; margin-bottom: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <a href="https://www.google.es/maps?q=la+riviera+madrid&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjQlp3D6sLTAhUMJsAKHW8BCTAQ_AUICCgB" target="_blank">
+                                    <img src="assets/img/lopedevega.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>Localización de la actividad</h2>
+                                <p>Dirección: Calle Gran Vía, 57</p>
+                                <p>Categoria: Teatro</p>
+                                <p>Teléfono de contacto: 902 88 87 88</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-top: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <img src="assets/img/8.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>Billy Eliot - Teatro Nuevo Alcalá</h2>
+                                <p>BILLY ELLIOT El Musical, uno de los espectáculos más apasionantes hoy en el mundo, llega a Madrid tras 11 años de gran éxito en el West End de Londres y 6 en Broadway. Localizado en una ciudad al norte de Inglaterra, en plena huelga minera de 1984/85, BILLY ELLIOT narra la lucha de un adolescente en contra del mundo para hacer realidad sus sueños. El espectador acompaña a Billy en su viaje desde un ring de boxeo a unas clases de ballet, en las que descubre una pasión por el baile que devolverá la unión a su familia, inspirará a su comunidad y cambiará su vida para siempre. Incluyendo la exquisita banda sonora compuesta por Elton John, con increíbles coreografías, una puesta en escena espectacular y una historia emocionante.</p>
+                                <p>Precio: 30€</p>
+                                <p>Horario: 21:30</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="background-color: #9FC5E8; padding-bottom: 15px; margin-bottom: 15px;">
+                        <div class="col-md-4">
+                            <div class="thumbail">
+                                <a href="https://www.google.es/maps/place/Teatro+Nuevo+Apolo/@40.4123907,-3.7055213,17z/data=!3m1!4b1!4m5!3m4!1s0xd4227d5516b19f9:0x8f6bf13e5bd2aada!8m2!3d40.4123907!4d-3.7033326" target="_blank">
+                                    <img src="assets/img/nuevoalcala.png" class="img-responsive" style="width:100%; border-width: 1px; border-color: darkgray; border-style: solid;" alt="Image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="caption">
+                                <h2>Localización de la actividad</h2>
+                                <p>Dirección: Calle de Jorge Juan, 62</p>
+                                <p>Categoria: Teatro</p>
+                                <p>Teléfono de contacto: 914 35 34 03</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="popup" data-popup="popup-1">
+        <div class="popup-inner">
+            <h2>Ayuda - ¿Cómo utilizar la aplicación?</h2>
+            <p>Simplemente, introduzca un término en el buscador y clique sobre "Buscar". A continuación, observará los resultados de su búsqueda.</p>
+            <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+        </div>
+    </div>
+</body>
+
+</html>
