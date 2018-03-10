@@ -13,3 +13,9 @@ function redirect() {
         location.href = "teatro.html"
     }
 }
+
+function insertar(){
+    var textoId = document.getElementById("texto").value;
+    var filaId = document.getElementById("seleccion").value;
+    document.getElementById(filaId).innerHTML=textoId;
+}
