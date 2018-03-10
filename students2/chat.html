@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <title>Actividades de Ocio y Culturales en Madrid</title>
     <meta charset="utf-8">
@@ -7,17 +10,24 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/main2.js"></script>
+    <script src="assets/js/popup2.js"></script>
 </head>
 
 <body>
     <header>
         <div class="container-fluid header">
-            <div class="col-sm-12"><button style="width 100px"> ayuda</button></div>
-            
-            
-            
+            <div class="pull-left">
+                <img src="" style="width: 15%">
+            </div>
+            <div class="pull-right">
+                <a data-popup-open="popup-1" href="#">
+                    <button class="btn btn-default help"><i class="fa fa-question-circle" aria-hidden="true" data-popup-open="popup-1"></i> | AYUDA</button>
+                </a>
+                <span class="big-text">
+                    <a href="login.html"><button class="btn btn-default help"><i class="fa fa-home" aria-hidden="true"></i> | Volver a la página principal</button></a>
+                </span>
+            </div>
         </div>
     </header>
     <div class="container-fluid background">
@@ -89,6 +99,20 @@
             </div>
         </div>
         <br>
+       <br>
+        <div class="popup" data-popup="popup-1">
+        <div class="popup-inner">
+            <h2>Ayuda - ¿Cómo utilizar la aplicación?</h2>
+            <p>Simplemente, introduzca un término en el buscador y clique sobre "Buscar". A continuación, observará los resultados de su búsqueda.</p>
+            <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+        </div>
+    </div>  
+        
+        
+           
+        
     </div>
     
+    
 </body>
+</html>
